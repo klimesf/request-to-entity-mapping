@@ -1,0 +1,20 @@
+{
+    "name": "klimesf/request-to-entity-mapping",
+    "description": "Library for mapping HTTP request data to Doctrine entity.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filip Klimes",
+            "email": "filip@filipklimes.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "doctrine/common": "^2.5",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "nette/tester": "^1.5"
+    }
+}
